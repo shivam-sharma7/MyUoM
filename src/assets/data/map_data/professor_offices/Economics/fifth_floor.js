@@ -2,8 +2,7 @@ import i18n from "../../../../../i18n";
 import { FIFTH_FLOOR_CD_IMG } from "../../floor_images";
 import elevator from "../../elevator_positions";
 
-let fifth_floor_locations;
-export default fifth_floor_locations = [
+const fifth_floor_locations = [
   // {
   //   floor: i18n.t("fifth_floor"),
   //   imageURL: FIFTH_FLOOR_CD_IMG,
@@ -101,3 +100,5 @@ export default fifth_floor_locations = [
   //   marked_position_y: 145,
   // },
 ];
+
+export default fifth_floor_locations

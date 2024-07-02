@@ -1,3 +1,4 @@
+// eslint-disable-next-line
 export default {
   open: "Ανοιχτά",
   closed: "Κλειστά",

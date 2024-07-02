@@ -1,3 +1,4 @@
+// eslint-disable-next-line
 export default {
   //constants.js --> offices
   offices: "Offices",

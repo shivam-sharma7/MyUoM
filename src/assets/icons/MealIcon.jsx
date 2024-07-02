@@ -1,6 +1,6 @@
 import React from "react";
 
-function MealIcon({}) {
+function MealIcon() {
   return (
     <svg
       className="fill-svg"

@@ -2,8 +2,8 @@ import i18n from "../../../../../i18n";
 import { SECOND_FLOOR_CD_IMG, SECOND_FLOOR_KZ_IMG } from "../../floor_images"; // Updated constant name to make it unique
 import elevator from "../../elevator_positions";
 
-let bso_second_floor_locations;
-export default bso_second_floor_locations = [
+
+const bso_second_floor_locations = [
   {
     floor: i18n.t("second_floor"),
     imageURL: SECOND_FLOOR_KZ_IMG,
@@ -237,3 +237,5 @@ export default bso_second_floor_locations = [
     marked_position_y: 150,
   },
 ];
+
+export default bso_second_floor_locations;

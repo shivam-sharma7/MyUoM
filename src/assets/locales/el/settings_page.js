@@ -1,3 +1,4 @@
+// eslint-disable-next-line
 export default {
     settings_title: "Ρυθμίσεις",
     toggle_dark_theme: "Σκούρο Θέμα",

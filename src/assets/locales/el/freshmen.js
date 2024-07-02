@@ -9,7 +9,7 @@ import open_eclass from "../../data/guides/el/open_eclass.md";
 import boarding from "../../data/guides/el/boarding.md";
 import housing from "../../data/guides/el/housing.md";
 import healthcare from "../../data/guides/el/healthcare.md";
-
+// eslint-disable-next-line
 export default {
   registration_application_guide: registration_application,
   uom_register_guide: uom_register,

@@ -1,3 +1,4 @@
+// eslint-disable-next-line
 export default {
     settings_title: "Settings",
     toggle_dark_theme: "Dark Theme",

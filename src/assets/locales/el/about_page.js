@@ -1,3 +1,4 @@
+// eslint-disable-next-line
 export default {
     about_title: "myUoM για κινητά",
     about_version: "Έκδοση V1.3.0",

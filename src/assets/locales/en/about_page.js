@@ -1,3 +1,4 @@
+// eslint-disable-next-line
 export default {
     about_title: "myUoM Mobile App",
     about_version: "Version V1.3.0",

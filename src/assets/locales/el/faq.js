@@ -1,3 +1,4 @@
+// eslint-disable-next-line
 export default {
     page_title:"Συχνές Ερωτήσεις",
     page_desc:"Εδώ θα βρείτε απαντήσεις σε ερωτήσεις που ενδέχεται να σας ενδιαφέρουν.",

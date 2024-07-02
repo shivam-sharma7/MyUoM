@@ -2,8 +2,7 @@ import i18n from "../../../../../i18n";
 import { THIRD_FLOOR_KZ_IMG } from "../../floor_images";
 import elevator from "../../elevator_positions";
 
-let third_floor_locations;
-export default third_floor_locations = [
+const third_floor_locations = [
   {
     floor: i18n.t("third_floor"),
     imageURL: THIRD_FLOOR_KZ_IMG,
@@ -130,3 +129,5 @@ export default third_floor_locations = [
     marked_position_y: 97,
   },
 ];
+
+export default third_floor_locations;

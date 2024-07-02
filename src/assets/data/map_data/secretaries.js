@@ -2,8 +2,7 @@ import { GROUND_FLOOR_IMG_URL, MEZZANINE_FLOOR_IMG_URL } from "./floor_images";
 import i18n from "../../../i18n";
 import elevator from "./elevator_positions";
 
-let locations;
-export default locations = [
+const locations = [
   {
     floor: i18n.t("mezzanine_floor"),
     imageURL: MEZZANINE_FLOOR_IMG_URL,
@@ -77,3 +76,5 @@ export default locations = [
     ...elevator.none,
   },
 ];
+
+export default locations;

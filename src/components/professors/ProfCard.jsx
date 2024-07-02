@@ -42,11 +42,9 @@ import {
   AccordionIcon,
   AccordionPanel,
   Box,
-  Button,
   useDisclosure,
   Image,
   Text,
-  VStack,
   useColorModeValue,
   Flex,
 } from "@chakra-ui/react";

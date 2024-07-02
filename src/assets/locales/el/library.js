@@ -1,3 +1,4 @@
+// eslint-disable-next-line
 export default {
 orario: "Ωράριο",
 defPar: "Δευ-Παρ",

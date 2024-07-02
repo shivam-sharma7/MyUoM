@@ -1,3 +1,4 @@
+// eslint-disable-next-line
 export default {
     apostolidis:"Georgios David Apostolidis",
     davios:"Evaggelos Davios",

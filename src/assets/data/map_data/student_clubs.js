@@ -4,8 +4,8 @@ import elevator from "./elevator_positions";
 // να μπει η ομάδα μας εδώ OPEN SOURCE UOM
 // και η ρομποτική που είναι μαζί μας
 // μετά υπάρχουν κάτι για erasmus που πρέπει να ρωτήσουμε
-let locations;
-export default locations = [
+ 
+const locations = [
   {
     floor: i18n.t("ground_floor"),
     imageURL: GROUND_FLOOR_IMG_URL,
@@ -23,3 +23,5 @@ export default locations = [
     ...elevator.library,
   },
 ];
+
+export default locations;

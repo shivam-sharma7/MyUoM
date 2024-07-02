@@ -2,8 +2,8 @@ import i18n from "../../../../../i18n";
 import { FOURTH_FLOOR_HT_IMG } from "../../floor_images";
 import elevator from "../../elevator_positions";
 
-let fourth_floor_locations;
-export default fourth_floor_locations = [
+
+const fourth_floor_locations = [
   {
     floor: i18n.t("fourth_floor"),
     imageURL: FOURTH_FLOOR_HT_IMG,
@@ -126,3 +126,5 @@ export default fourth_floor_locations = [
   //   marked_position_y: 136,
   // },
 ];
+
+export default fourth_floor_locations;

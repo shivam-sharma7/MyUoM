@@ -1,3 +1,4 @@
+// eslint-disable-next-line
 export default {
   floor: "όροφο",
   first_floor: "Πρώτο",

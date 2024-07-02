@@ -2,8 +2,7 @@ import { FOURTH_FLOOR_CD_IMG } from "../../floor_images";
 import i18n from "../../../../../i18n";
 import elevator from "../../elevator_positions";
 
-let locations;
-export default locations = [
+const locations = [
   {
     imageURL: FOURTH_FLOOR_CD_IMG,
     ...elevator.library,
@@ -104,3 +103,5 @@ export default locations = [
   //   marked_position_y: 203,
   // },
 ];
+
+export default locations;

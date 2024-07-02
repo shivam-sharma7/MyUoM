@@ -1,6 +1,6 @@
 import i18n from "../../i18n";
 
-export default [
+const dailyMenu = [
   {
     day: i18n.t("monday"),
     gevmaKirios: [
@@ -163,3 +163,5 @@ export default [
     deipnoEpidorpio: [i18n.t("choiceOfSeasonalFruits")],
   },
 ];
+
+export default dailyMenu;
